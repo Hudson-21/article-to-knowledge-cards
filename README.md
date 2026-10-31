@@ -2,6 +2,8 @@
 
 一个用于支持 Agent Skills 的客户端（如 CodeBuddy）的开源 Skill：把**用户粘贴的文章**或**本地 Markdown/TXT 文件**，转换成 **5–8 张知识卡片**。
 
+> 仓库名为 `article-to-knowledge-cards`，仓库内 Skill 的目录与 `name` 字段为 `make-knowledge-cards`。两者不同是有意的：仓库名描述用途，`name` 是 Skill 的调用标识符，必须与 `SKILL.md` 所在目录名一致。
+
 ## 1. 项目解决什么问题
 
 读到一篇有价值的文章后，真正的麻烦往往不在"读完"，而在"留不住"：长文要点散落在段落里，复习时只能重读全文；随手做成笔记又容易变成原文缩写，看不出哪几句才是关键。
